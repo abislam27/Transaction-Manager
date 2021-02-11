@@ -1,6 +1,6 @@
 class Account:
 
-    def __init__(self, name, balance = 0, credit = 0, debit = 0, transactionNum = 0):
+    def __init__(self, name = "Valued customer", balance = 0, credit = 0, debit = 0, transactionNum = 0):
         self._name = name
         self._balance = balance
         self._credit = credit
